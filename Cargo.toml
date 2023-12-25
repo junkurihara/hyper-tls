@@ -22,7 +22,7 @@ hyper = "1"
 hyper-util = { git = "https://github.com/junkurihara/hyper-util", features = [
   "client-legacy",
   "tokio",
-], rev = "85a92f3da3c1b8b0d20c71f8d9a7063f98ab4eb9" }
+], rev = "324408be9666670b47bf84180a4306fdd649cffc" }
 native-tls = "0.2.1"
 tokio = "1"
 tokio-native-tls = "0.3"
@@ -32,5 +32,5 @@ tower-service = "0.3"
 # hyper-util = { version = "0.1.0", features = ["http1"] }
 hyper-util = { git = "https://github.com/junkurihara/hyper-util", features = [
   "http1",
-], rev = "85a92f3da3c1b8b0d20c71f8d9a7063f98ab4eb9" }
+], rev = "324408be9666670b47bf84180a4306fdd649cffc" }
 tokio = { version = "1.0.0", features = ["io-std", "macros", "io-util"] }
